@@ -1,0 +1,93 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Screens */
+#start-screen,
+#quiz-screen,
+#result-screen {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 400px;
+}
+
+/* Buttons */
+button {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Quiz Questions */
+#quiz-header h2 {
+  margin-bottom: 15px;
+}
+
+#question-counter {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Options */
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option {
+  background: #e9ecef;
+  color: #333;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: left;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #d6d9dd;
+}
+
+/* Progress Bar */
+#progress-container {
+  width: 100%;
+  background: #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  height: 12px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  width: 0%;
+  height: 100%;
+  background: #4CAF50;
+  transition: width 0.3s ease-in-out;
+}
