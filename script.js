@@ -1,4 +1,4 @@
-// Question Pool: Java + Python
+// Question Pool: Java + Python + MySQL
 const questionPool = [
   // Java Questions
   { question: "Which keyword is used to inherit a class in Java?", options: ["this", "super", "extends", "implements"], answer: "extends" },
@@ -22,7 +22,19 @@ const questionPool = [
   { question: "Which operator is used for floor division in Python?", options: ["/", "//", "%", "**"], answer: "//" },
   { question: "Which of the following is used to handle exceptions in Python?", options: ["try-except", "catch-throw", "error-handle", "do-catch"], answer: "try-except" },
   { question: "Which method adds an element to the end of a Python list?", options: ["append()", "add()", "insert()", "extend()"], answer: "append()" },
-  { question: "Which keyword is used to create a class in Python?", options: ["class", "def", "object", "type"], answer: "class" }
+  { question: "Which keyword is used to create a class in Python?", options: ["class", "def", "object", "type"], answer: "class" },
+
+  // MySQL Questions
+  { question: "Which command is used to create a database in MySQL?", options: ["CREATE DATABASE", "CREATE DB", "NEW DATABASE", "MAKE DATABASE"], answer: "CREATE DATABASE" },
+  { question: "Which command is used to delete a table in MySQL?", options: ["DROP TABLE", "DELETE TABLE", "REMOVE TABLE", "TRUNCATE TABLE"], answer: "DROP TABLE" },
+  { question: "Which statement is used to retrieve data from a MySQL table?", options: ["SELECT", "GET", "FETCH", "RETRIEVE"], answer: "SELECT" },
+  { question: "Which keyword is used to sort query results in MySQL?", options: ["ORDER BY", "SORT BY", "GROUP BY", "ARRANGE BY"], answer: "ORDER BY" },
+  { question: "Which datatype is used to store textual data in MySQL?", options: ["VARCHAR", "INT", "BOOLEAN", "DATE"], answer: "VARCHAR" },
+  { question: "Which clause is used to filter rows in a SELECT query?", options: ["WHERE", "HAVING", "IF", "FILTER"], answer: "WHERE" },
+  { question: "Which command is used to add a new row in MySQL?", options: ["INSERT INTO", "ADD ROW", "NEW ROW", "UPDATE"], answer: "INSERT INTO" },
+  { question: "Which function is used to get the total number of rows in a table?", options: ["COUNT()", "SUM()", "TOTAL()", "NUMBER()"], answer: "COUNT()" },
+  { question: "Which clause is used to combine rows from two tables?", options: ["JOIN", "MERGE", "UNION", "LINK"], answer: "JOIN" },
+  { question: "Which command is used to change existing data in a table?", options: ["UPDATE", "MODIFY", "CHANGE", "ALTER"], answer: "UPDATE" }
 ];
 
 // DOM elements
